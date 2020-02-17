@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=NTR');
+
+body {
+    background: white;
+    font-family: 'NTR', 'Arial', sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    margin-bottom: 30px;
+    height: 70px;
+    background-color: #F4D03F;
+    padding: 15px;
+}
+
+#header h1 {
+    padding-top: 10px;
+    font-weight: 500; 
+    text-align: center;
+}
+
+.input_form {
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+#form_button {
+    border: none;
+    margin-left: 5px;
+    
+}
+.input_text {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid #F1C40F;
+    border-radius: 5px; 
+}
+
+#weather-data, #weather-list {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#weather-error {
+    text-align: center;
+}
+
+.alignRight {
+    float: right;
+     margin-right: 150px; 
+}
+
+.alignLeft {
+    float: left;
+     margin-left: 150px; 
+}
+
+
+@media (max-width: 750px) {
+    #header h1 {
+        font-size: 30px;
+    }
+    .input_text {
+        width: 200px;
+    }
+
+    #weather-data, #weather-list {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .alignRight {
+        margin-right: 15px;
+    }
+    
+    .alignLeft {
+        margin-left: 0px;
+    }
+}
